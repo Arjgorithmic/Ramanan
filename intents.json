@@ -1,0 +1,40 @@
+{"intents": 
+[
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Ormayundo Ee Mukham", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye","Get lost", "Till next time", "bbye"],
+     "responses": ["Savari Giri Giri", " Po mone Dinesha","Angane Panavazhi Shavamaayi", "Vadakkan Veetil Kochu kunjinodu Odakaan Nokkalle, Odachu Kayyil therum"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Arunetta Santhoshayille", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm Ramanan, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "error",
+    "patterns": ["wrong", "it's not correct", "wrong answer"],
+    "responses": ["Karnan Nepolean Bhagat Singh, Ivar moonuperumanu ente heroes", "I am the sorry Aliya I am the sorry aliya", "Shavaththil kuththalle Pillechcha..."]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Namukk choych choych pokam...", "Sense venam Sensitivity venam Sensibility venam", "Ippo shariyakki tharaam"]
+    },
+    {
+    "tag": "noanswer",
+    "patterns": [],
+    "responses": [
+            "Sense venam Sensitivity venam Sensibility venam",
+            "Kashtam thanne muthalali",
+            "Kampili pothappe...."]
+    }
+]
+}
